@@ -70,7 +70,7 @@ Run the following command before you start the server
             <td>
                 <p>{</p>
                     <p>"name": "string",</p>
-                    <p>"email": "string@mail.com"</p>
+                    <p>"email": "string@mail.com",</p>
                     <p>"password": "string"</p>
                 <p>}</p>
             </td>
@@ -88,7 +88,7 @@ Run the following command before you start the server
             <td>
                 <p>{</p>
                     <p>"name": "string",</p>
-                    <p>"email": "string@mail.com"</p>
+                    <p>"email": "string@mail.com",</p>
                     <p>"password": "string"</p>
                 <p>}</p>
             </td>

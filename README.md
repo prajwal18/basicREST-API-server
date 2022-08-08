@@ -40,6 +40,68 @@ Run the following command before you start the server
     </tr>
 </table>
 
+
+# API END-POINTS
+
+<table>
+    <thead>
+        <th>Path</th>
+        <th>Method</th>
+        <th>Body</th>
+        <th>Result</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>/</td>
+            <td>GET</td>
+            <td></td>
+            <td>Home Page</td>
+        </tr>
+        <tr>
+            <td>/users</td>
+            <td>GET</td>
+            <td></td>
+            <td>List of all the users.</td>
+        </tr>
+        <tr>
+            <td>/users</td>
+            <td>POST</td>
+            <td>
+                <p>{</p>
+                    <p>name: "string",</p>
+                    <p>email: "string@mail.com"</p>
+                    <p>password: "string"</p>
+                <p>}</p>
+            </td>
+            <td>Creates a new user.</td>
+        </tr>
+        <tr>
+            <td>/users/:id</td>
+            <td>GET</td>
+            <td></td>
+            <td>Get the user with the matching id.</td>
+        </tr>
+        <tr>
+            <td>/users/:id</td>
+            <td>PATCH</td>
+            <td>
+                <p>{</p>
+                    <p>name: "string",</p>
+                    <p>email: "string@mail.com"</p>
+                    <p>password: "string"</p>
+                <p>}</p>
+            </td>
+            <td>Updates the user info of the user with the matching id.</td>
+        </tr>
+        <tr>
+            <td>/users/:id</td>
+            <td>DELETE</td>
+            <td></td>
+            <td>Delets the user with the matching id.</td>
+        </tr>
+    </tbody>
+</table>
+
                     
 ### More Info
 [@Prajwal Gautam](https://github.com/prajwal18) (Author)

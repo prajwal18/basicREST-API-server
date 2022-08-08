@@ -40,8 +40,9 @@ Run the following command before you start the server
     </tr>
 </table>
 
+<br/>
 
-# API END-POINTS
+## API END-POINTS
 
 <table>
     <thead>

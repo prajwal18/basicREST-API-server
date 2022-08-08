@@ -69,9 +69,9 @@ Run the following command before you start the server
             <td>POST</td>
             <td>
                 <p>{</p>
-                    <p>name: "string",</p>
-                    <p>email: "string@mail.com"</p>
-                    <p>password: "string"</p>
+                    <p>"name": "string",</p>
+                    <p>"email": "string@mail.com"</p>
+                    <p>"password": "string"</p>
                 <p>}</p>
             </td>
             <td>Creates a new user.</td>
@@ -87,9 +87,9 @@ Run the following command before you start the server
             <td>PATCH</td>
             <td>
                 <p>{</p>
-                    <p>name: "string",</p>
-                    <p>email: "string@mail.com"</p>
-                    <p>password: "string"</p>
+                    <p>"name": "string",</p>
+                    <p>"email": "string@mail.com"</p>
+                    <p>"password": "string"</p>
                 <p>}</p>
             </td>
             <td>Updates the user info of the user with the matching id.</td>

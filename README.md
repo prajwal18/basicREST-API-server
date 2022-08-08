@@ -1,6 +1,5 @@
 # Simple REST API
-This is a simple REST API setup with CRUD functionality. It is build with node and express and the data
-is presisted on mongodb database.
+This is a simple REST API setup with CRUD functionality. It is build with node and express and the data is persisted on mongodb database.
 This setup is an introductory project to REST APIs in general and does not have a lot of security and 
 authentication setup.
 

@@ -1,0 +1,16 @@
+{
+  "name": "practice1",
+  "version": "1.0.0",
+  "description": "A simple REST API with CRUD functionality, just the functionality no authorization or authentication",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Prajwal Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  }
+}

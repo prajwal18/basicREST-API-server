@@ -3,7 +3,7 @@ This is a simple REST API setup with CRUD functionality. It is build with node a
 This setup is an introductory project to REST APIs in general and does not have a lot of security and 
 authentication setup.
 
-The project is a simple User management system, where you can create, read, update and delete records of user. The project uses MVC architecture, thought the view is missing.(Will add it later)
+The project is a simple User management system, where you can create, read, update and delete records of user. The project uses MVC architecture, The view is basic. (RECOMMENDATION: Add your own view, the provided one is very basic)
 
 
 # Before you start

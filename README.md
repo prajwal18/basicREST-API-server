@@ -53,19 +53,13 @@ Run the following command before you start the server
     </thead>
     <tbody>
         <tr>
-            <td>/</td>
-            <td>GET</td>
-            <td></td>
-            <td>Home Page</td>
-        </tr>
-        <tr>
-            <td>/users</td>
+            <td>/api/v1/users</td>
             <td>GET</td>
             <td></td>
             <td>List of all the users.</td>
         </tr>
         <tr>
-            <td>/users</td>
+            <td>/api/v1/users</td>
             <td>POST</td>
             <td>
                 <p>{</p>
@@ -77,13 +71,13 @@ Run the following command before you start the server
             <td>Creates a new user.</td>
         </tr>
         <tr>
-            <td>/users/:id</td>
+            <td>/api/v1/users/:id</td>
             <td>GET</td>
             <td></td>
             <td>Get the user with the matching id.</td>
         </tr>
         <tr>
-            <td>/users/:id</td>
+            <td>/api/v1/users/:id</td>
             <td>PATCH</td>
             <td>
                 <p>{</p>
@@ -95,7 +89,7 @@ Run the following command before you start the server
             <td>Updates the user info of the user with the matching id.</td>
         </tr>
         <tr>
-            <td>/users/:id</td>
+            <td>/api/v1/users/:id</td>
             <td>DELETE</td>
             <td></td>
             <td>Delets the user with the matching id.</td>

@@ -13,14 +13,12 @@ const errorHandler = require('./error/errorHandler');
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-//Sample route
-app.get('/', (req, res) => {
-    //throw new Error('What is up with you');
-    res.send('Hello World');
-})
+//Server static files
+app.use(express.static("public"));
 
 //Routes
-app.use('/users', require('./routes/userRoute'));
+app.use('/', require('./routes/viewRoute'));
+app.use('/api/v1/users', require('./routes/userRoute'));
 
 //Using some error handlers
 app.use(notFound);

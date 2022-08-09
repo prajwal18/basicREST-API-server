@@ -1,0 +1,24 @@
+/*Normalize some stuff*/
+*,*::before,*::after{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+
+/*CSS for the tables*/
+table {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+table td, table th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}

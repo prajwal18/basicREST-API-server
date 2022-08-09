@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="A basic User management site" />
+        <meta name="Authour" content="Prajwal Gautam" />
+        <link rel="icon" type="image/png" href="assets/logo.png" />
+
+        <!--Link for css-->
+        <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+
+        <title>User Manager | All Users</title>
+    </head>
+    <body>
+        <h1>All Users Page</h1>
+        <p>Get data on All the users in the system</p>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Email</th>
+                <th>id</th>
+            </thead>
+            <tbody id="user-list-table-body">
+                <!--Js will add the users data here-->
+            </tbody>
+        </table>
+
+        <div>
+            <br/><br/>
+            <p><a href="/">Go to home</a></p>
+        </div>
+
+        <!--Axios and other js-->
+        <!--Link for JS-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+            integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="assets/clientSide.js"></script>
+    </body>
+</html>
